@@ -1,0 +1,18 @@
+$color-click:#c2935f;
+
+@mixin pc00 {
+    @media (max-width: 1730px) {
+        @content;
+    }
+}
+@mixin pc01 {
+    @media (max-width: 1680px) {
+        @content;
+    }
+}
+@mixin pc02 {
+    @media (max-width: 1350px) {
+        @content;
+    }
+}
+
