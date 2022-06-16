@@ -241,7 +241,7 @@ $(function(){
       var swiper = new Swiper(".right_swiper", {
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 0,
+        spaceBetween: 20,
         navigation: {
           nextEl: ".sc_shop .next",
           prevEl: ".sc_shop .prev",
