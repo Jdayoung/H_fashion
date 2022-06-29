@@ -291,6 +291,10 @@ $(function(){
         slidesPerView: 3,
         // spaceBetween: 10,
         centeredSlides: true,
+        navigation: {
+          nextEl: ".sc_tv .next",
+          prevEl: ".sc_tv .prev",
+        },
       });
 
 
