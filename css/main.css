@@ -869,6 +869,7 @@
 .sc_best .cont_wrap .cont.swiper .txt_box p {
   font-size: 14px;
   margin: 7px 0;
+  line-height: 1.3;
 }
 
 .sc_best .cont_wrap .cont.swiper .txt_box span {

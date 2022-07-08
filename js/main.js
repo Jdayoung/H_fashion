@@ -268,13 +268,13 @@ $(function(){
         e.preventDefault();
         $(this).hide();
         $('.sc_foryou .play').css({display:'block'});
-        $('.for_swiper').autoplay.stop();
+        $('.sc_foryou .for_swiper').autoplay.stop();
       })
       $('.sc_foryou .play').click(function(e){
         e.preventDefault();
         $(this).hide();
         $('.sc_foryou .pause').css({display:'block'});
-        $('.for_swiper').autoplay.start();
+        $('.sc_foryou .for_swiper').autoplay.start();
       }) 
 
 
